@@ -33,12 +33,13 @@
     <meta name="description" content="FH Potsdam CAS">
 
     <title>FH Potsdam Campus.Account Authentifikation</title>
+    <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="<c:url value="css/bootstrap.min.css" />" rel="stylesheet">
 
     <!-- Custom CSS -->
-    <link href="css/simple-sidebar.css" rel="stylesheet">
+    <link href="<c:url value="css/simple-sidebar.css" />" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
@@ -48,8 +49,7 @@
     <![endif]-->
 
     <spring:theme code="standard.custom.css.file" var="customCssFile" />
-    <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
-    <link rel="stylesheet" href="css/fhp.css">
+    <link rel="stylesheet" href="<c:url value="/fhp.css" />">
     <link rel="icon" href="<c:url value="/favicon.ico" />" type="image/x-icon" />
 
 </head>

@@ -42,7 +42,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
-    <script type="text/javascript" src="js/head.min.js"></script>
+    <script type="text/javascript" src="<c:url value="js/head.min.js" />"></script>
     <spring:theme code="cas.javascript.file" var="casJavascriptFile" text="" />
     <script type="text/javascript" src="<c:url value="${casJavascriptFile}" />"></script>
 </body>
