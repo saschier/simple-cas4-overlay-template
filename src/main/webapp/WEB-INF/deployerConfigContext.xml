@@ -248,7 +248,7 @@
     <!-- If you wish to search by user, rather than by dn, change {dn} to {user} -->
     <bean id="entryResolver"
           class="org.ldaptive.auth.SearchEntryResolver"
-          p:baseDn="${ldap.authn.baseDn}"
+          p:baseDn="${ldap.baseDn}"
           p:userFilter="userPrincipalName={dn}"
           p:subtreeSearch="true" />
 </beans>
