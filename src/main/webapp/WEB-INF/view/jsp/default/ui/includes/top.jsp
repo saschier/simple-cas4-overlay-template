@@ -33,6 +33,7 @@
     <meta name="description" content="FH Potsdam CAS">
 
     <title>FH Potsdam Campus.Account Authentifikation</title>
+    <spring:theme code="standard.custom.css.file" var="customCssFile" />
     <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
 
     <!-- Bootstrap Core CSS -->
@@ -48,7 +49,6 @@
         <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <spring:theme code="standard.custom.css.file" var="customCssFile" />
     <link rel="stylesheet" href="<c:url value="/fhp.css" />">
     <link rel="icon" href="<c:url value="/favicon.ico" />" type="image/x-icon" />
 
