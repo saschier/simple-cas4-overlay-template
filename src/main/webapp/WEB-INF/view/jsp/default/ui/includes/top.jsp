@@ -32,7 +32,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="FH Potsdam CAS">
 
-    <title>FH Potsdam Zentrale Authentifikation</title>
+    <title>FH Potsdam Campus.Account Authentifikation</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -46,12 +46,14 @@
         <script src="js/html5shiv.js"></script>
         <script src="js/respond.min.js"></script>
     <![endif]-->
-    
+
     <spring:theme code="standard.custom.css.file" var="customCssFile" />
+    <!--
     <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
+    -->
     <link rel="stylesheet" href="css/fhp.css">
     <link rel="icon" href="<c:url value="/favicon.ico" />" type="image/x-icon" />
-  
+
 </head>
 <body>
     <div id="wrapper">
@@ -86,5 +88,5 @@
                 <div class="row">
                     <div class="col-lg-12">
                         <div class="page-header">
-                            <h1 class="h1">FH Potsdam Zentraler Login</h1>
+                            <h1 class="h1">FH Potsdam Campus.Account Login</h1>
                         </div>

@@ -19,10 +19,6 @@
 
 --%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
-
-
-
-                        
                         <div id="togglebutton"><a href="#menu-toggle" class="btn btn-default" id="menu-toggle">Menü anzeigen</a></div>
                     </div>
                 </div>
@@ -46,6 +42,7 @@
         $("#wrapper").toggleClass("toggled");
     });
     </script>
+    <script type="text/javascript" src="js/head.min.js"></script>
     <spring:theme code="cas.javascript.file" var="casJavascriptFile" text="" />
     <script type="text/javascript" src="<c:url value="${casJavascriptFile}" />"></script>
 </body>
