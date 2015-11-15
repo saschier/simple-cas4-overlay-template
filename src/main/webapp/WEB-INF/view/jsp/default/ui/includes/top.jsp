@@ -27,20 +27,20 @@
 <%@ taglib prefix="fn" uri="http://java.sun.com/jsp/jstl/functions" %>
 <html>
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="FH Potsdam CAS">
-
+    <base href="https://account.fh-potsdam.de/cas/" />
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="FH Potsdam CAS" />
     <title>FH Potsdam Campus.Account Authentifikation</title>
+
     <spring:theme code="standard.custom.css.file" var="customCssFile" />
     <link rel="stylesheet" href="<c:url value="${customCssFile}" />" />
 
     <!-- Bootstrap Core CSS -->
-    <link href="<c:url value="css/bootstrap.min.css" />" rel="stylesheet">
-
+    <link href="<c:url value="css/bootstrap.min.css" />" rel="stylesheet" />
     <!-- Custom CSS -->
-    <link href="<c:url value="css/simple-sidebar.css" />" rel="stylesheet">
+    <link href="<c:url value="css/simple-sidebar.css" />" rel="stylesheet" />
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesnt work if you view the page via file:// -->
@@ -49,7 +49,7 @@
         <script src="js/respond.min.js"></script>
     <![endif]-->
 
-    <link rel="stylesheet" href="<c:url value="/fhp.css" />">
+    <link rel="stylesheet" href="<c:url value="/fhp.css" />" />
     <link rel="icon" href="<c:url value="/favicon.ico" />" type="image/x-icon" />
 
 </head>

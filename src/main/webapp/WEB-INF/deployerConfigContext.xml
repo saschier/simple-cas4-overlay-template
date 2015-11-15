@@ -104,7 +104,6 @@
        | * org.jasig.cas.adaptors.jdbc.QueryDatabaseAuthenticationHandler
        | * org.jasig.cas.adaptors.x509.authentication.handler.support.X509CredentialsAuthenticationHandler
        | * org.jasig.cas.support.spnego.authentication.handler.support.JCIFSSpnegoAuthenticationHandler
-       -->
     <bean id="primaryAuthenticationHandler"
           class="org.jasig.cas.authentication.AcceptUsersAuthenticationHandler">
         <property name="users">
@@ -113,6 +112,7 @@
             </map>
         </property>
     </bean>
+-->
 
     <!-- Required for proxy ticket mechanism -->
     <bean id="proxyPrincipalResolver"
