@@ -21,20 +21,21 @@
 #sidebar-wrapper {
     z-index: 1000;
     position: fixed;
-    left: 150px;
+    left: 140px;
     width: 0;
     height: 100%;
-    margin-left: -150px;
+    margin-left: -140px;
     overflow-y: auto;
     background: #0773b6;
     -webkit-transition: all 0.5s ease;
     -moz-transition: all 0.5s ease;
     -o-transition: all 0.5s ease;
     transition: all 0.5s ease;
+    box-shadow: 0px 1px 6px;
 }
 
 #wrapper.toggled #sidebar-wrapper {
-    width: 150px;
+    width: 140px;
 }
 
 #page-content-wrapper {
@@ -44,7 +45,7 @@
 
 #wrapper.toggled #page-content-wrapper {
     position: absolute;
-    margin-right: -150px;
+    margin-right: -140px;
 }
 
 /* Sidebar Styles */
@@ -52,7 +53,7 @@
 .sidebar-nav {
     position: absolute;
     top: 0;
-    width: 150px;
+    width: 140px;
     margin: 0;
     padding: 0;
     list-style: none;
